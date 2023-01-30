@@ -1,0 +1,62 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+/* tablo tüm sayfayi yatay olarak kapladığı için verilen değerler */
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* tablonun icindeki yazılar ortalansın */
+    text-align: center;
+}
+
+#inputbox {
+    background-color: #eeeeee;
+}
+
+input {
+    margin-left: 3px;
+    /* search the web using google yazisi icin verilmiş bir değer */
+    margin-top: 3px;
+}
+
+/* 3 aqua renkli kutu ıçın genel css değerleri */
+td {
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    vertical-align: top;
+    border: 1px none #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 0;
+    vertical-align: middle;
+}
+/* her bir kutuya ayri renk değerleri atandi. */
+#td1 {
+    width: 33%;
+    background-color: #7EE5DA;
+}
+
+#td2 {
+    width: 25%;
+    background-color: #70CCC2;
+}
+
+#td3 {
+    background-color: #62B3AA;
+}
+/* resmin ortalnmasi icin verilen değerler */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* en alttaki copyright ifadesi ıcın verilen değerler */
+#footer {
+    text-align: center;
+    font-size: small;
+}
